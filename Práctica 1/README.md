@@ -1,13 +1,15 @@
 # FrontEnd-Mision-Training🚀
 
 ### Prácticas de Intro a Frontend
+
 1. [Toma de requerimientos](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%201/1.-Requerimientos%20Abogabot.doc)
-1. ~~Buyer Persona~~
-1. ~~Público objetivo~~
-1. ~~Wireframe UX~~
-1. ~~UI~~
+2. Buyer Persona
+3. Público objetivo
+4. ~~Wireframe UX~~
+5. ~~UI~~
 
 ### 1) [Toma de requerimientos](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%201/1.-Requerimientos%20Abogabot.doc)
+
 ### Caso: Abogabot
 
 ### Descripción:
@@ -21,3 +23,11 @@ Es un despacho de abogados que quiere automatizar las demandas de sus clientes, 
 ### Diagrama de Planeación
 
 ![](image/README/1645340797031.png)
+
+### 2) Buyer Persona
+
+![](image/buyer_persona.png)
+
+### 3) Público objetivo
+
+![](image/Target_Audience.jpg)
