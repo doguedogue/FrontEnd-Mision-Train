@@ -5,7 +5,7 @@
 1. [Toma de requerimientos](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%201/1.-Requerimientos%20Abogabot.doc)
 2. Buyer Persona
 3. Público objetivo
-4. ~~Wireframe UX~~
+4. [Wireframe UX](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%201/Abogabot_Wireframe.pdf)
 5. ~~UI~~
 
 ### 1) [Toma de requerimientos](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%201/1.-Requerimientos%20Abogabot.doc)
@@ -31,3 +31,10 @@ Es un despacho de abogados que quiere automatizar las demandas de sus clientes, 
 ### 3) Público objetivo
 
 ![](image/Target_Audience.jpg)
+
+
+### 4) [Wireframe UX](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%201/Abogabot_Wireframe.pdf)
+
+![](image/Abogabot_Wireframe.jpg)
+
+
