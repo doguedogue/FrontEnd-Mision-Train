@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white
+}
+
+@font-face {
+    font-family: 'mrrobot';
+    src: url('../font/MR_ROBOT.ttf') format('truetype');
+}
+
+.title {
+    font-family: 'mrrobot', sans-serif;
+    color:red;
+    font-size: 50px;
+}
