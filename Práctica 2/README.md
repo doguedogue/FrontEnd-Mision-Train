@@ -16,10 +16,10 @@ Descripción:
 5. El cliente de la pastelería tendrá la posibilidad de combinar adornos dependiendo de sus preferencias.
 6. El cliente de la pastelería necesita poner en un formulario su pedido.
 7. El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos.
-8. ~~El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.~~
-9. ~~El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.~~
-10. ~~El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.~~
-11. ~~La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención~~
+8. El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.
+9. El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
+10. El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
+11. La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención
 
 ## Prácticas a Realizar
 
@@ -27,7 +27,7 @@ Prácticas:
 
 * Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
 * Maquetación de páginas de cliente de la pastelería.
-* ~~Maquetación de páginas del pastelero.~~
+* Maquetación de páginas del pastelero.
 
 Bonus: En caso de que te quede corto el ejercicio siguele con esto!
 
