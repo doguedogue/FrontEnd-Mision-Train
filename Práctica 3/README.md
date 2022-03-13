@@ -1,12 +1,16 @@
 # FrontEnd-Mision-Training🚀
 
-### Práctica CSS
+### Práctica CSS - Clonar con CSS
 
-#### Clone CSS
+[Code (HTML)](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%203/index.html) [Page (https://doguedogue.github.io/vaccination/index.html)](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%203/index.html)
 
-[Code](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%203/index.html)
+#### Campaña Publicitaria
+
+![Image text](./img/vaccination_campaign.png)
+![Image text](./img/vaccination_campaign2.png)
 
 #### Instrucciones
+
 Para la práctica de esta semana tendrán que maquetar en HTML el siguiente caso y generar su repositorio con el ejercicio.
 Recordemos que solamente se necesita maquetar como un prototipo, **no es necesario que tenga funcionalidad completa en la información**
 
@@ -23,4 +27,4 @@ La práctica consiste en lo siguiente:
 Bonus:
 
 * Bonus de diseños o páginas adicionales (Totalmente a tu creatividad)
-* Bonus de despliegue de la págin
+* Bonus de despliegue de la página
