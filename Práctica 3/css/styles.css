@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+:root{
+    /* --padding-container: 80px 0;
+    --color-primary: #f77062;
+    --color-secondary: #1b998b;
+    --color-bg: #fafafa;
+    --align-title: center; */
+    --box-shadow: 0 0 12px rgba(0,0,0, .2);
+}
+
 *{
     /* outline:3px solid red; */
     box-sizing: border-box;
@@ -127,7 +136,11 @@ body{
     position: absolute;
     bottom: 40px;
     left: 150px;
-    background-color: white;
+    /* background-color: white; */
+    border: 1px solid lightgray;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
     display: flex;
 }
 
@@ -162,10 +175,42 @@ body{
 
 /* Card Container */
 
-.cards_container{
-    width: 50%;
-    margin: 0;
+.cards__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
+
+.cards__container__item {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 100px;
+    border: 1px solid lightgray;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow: none;
+
+}
+
+.cards__container__item__title{
+    color: blue;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.cards__container__item__text{
+    color: blue;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+
+
 
 
 /* Sections */
@@ -173,8 +218,9 @@ body{
 .section__main{
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
 }
 
 .section__img{
@@ -197,8 +243,9 @@ body{
 }
 
 .section__title{
-    padding-top: 200px;
-    font-size: 4rem;
+    padding-top: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 
@@ -209,6 +256,22 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
 
 
 @media screen and (max-width:800px){
