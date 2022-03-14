@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 :root{
-    /* --color-bg: #fff; */
-    /* --color-primary: #2854cc;
-    --color-secondary: #f8f4fc; */
+    --color-bg: #fff;
+    --color-primary: #084bc3;
+    --color-secondary: #09416a;
+    --color-tertiary: #617286;
     --button-primary: #2854cc;
-    --button-secondary: #f8f4fc;
+    --button-secondary: #f1f5ff;
     --box-shadow: 0 0 12px rgba(0,0,0, .2);
 }
 
@@ -18,7 +19,8 @@
 
 
 body{
-    background: #f2f2f2;
+    /* background: #f2f2f2; */
+    background-color: var(--color-bg);
     font-family: 'Lato', sans-serif;
 }
 
@@ -43,7 +45,7 @@ body{
 }
 
 .nav__container__logo {
-    color: blue;
+    color: var(--color-primary);
     font-weight: bolder;
 }
 
@@ -113,11 +115,13 @@ body{
     padding-top: 200px;
     font-size: 4rem;
     padding-bottom: 20px;
+    color: var(--color-secondary)
 }
 
 .hero__copy{
     font-size: 1rem;
     font-weight: 300px;
+    color: var(--color-tertiary)
 }
 
 
@@ -203,12 +207,12 @@ body{
 }
 
 .cards__container__item__title{
-    color: blue;
+    color: var(--color-secondary);
     font-size: 1.25rem;
     font-weight: bold;
 }
 .cards__container__item__text{
-    color: blue;
+    color: var(--color-tertiary);
     font-size: 1rem;
     font-weight: 100;
 }
@@ -249,18 +253,25 @@ body{
     font-size: 2.5rem;
     font-weight: bold;
     padding-bottom: 20px;
+    color: var(--color-secondary)
 }
 
 
 .section__copy--np{
     font-size: 1rem;
     font-weight: 300px;
+    color: var(--color-tertiary)
 }
 
 .section__copy{
     font-size: 1rem;
     font-weight: 300px;
     padding: 20px 0;
+    color: var(--color-tertiary)
+}
+
+.section__copy__text{
+    color: var(--color-tertiary);
 }
 
 /* Contact Box */
@@ -287,6 +298,10 @@ body{
     display: flex;
 }
 
+.section__contacts__box__title{
+    color: var(--color-secondary)
+}
+
 .contact_button{
     display: inline-block;
     width: 175px;
@@ -305,8 +320,18 @@ body{
     color: #fff;
 }
 
-.section__contacts__box__title{
+.container__about{
+    background-color: var(--button-secondary);
+    width: 100%;
+    height: 500px;
+    border: 1px solid lightgray;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+   
+}
 
+.container__about_title1{
+    color: var(--color-primary);
 }
 
 
