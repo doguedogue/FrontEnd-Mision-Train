@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 :root{
-    /* --padding-container: 80px 0;
-    --color-primary: #f77062;
-    --color-secondary: #1b998b;
-    --color-bg: #fafafa;
-    --align-title: center; */
+    /* --color-bg: #fff; */
+    /* --color-primary: #2854cc;
+    --color-secondary: #f8f4fc; */
+    --button-primary: #2854cc;
+    --button-secondary: #f8f4fc;
     --box-shadow: 0 0 12px rgba(0,0,0, .2);
 }
 
@@ -25,7 +25,7 @@ body{
 /* NavBar */
 .nav{
     height: 70px;
-    background: #ffffff7e;
+    background: #ffffffc5;
     position: absolute;
     width: 100vw;
 }
@@ -49,7 +49,7 @@ body{
 
 .navbarbutton{
     display: inline-block;
-    background:#0900ad;
+    background: var(--button-primary);
     color: #fff;
     text-decoration: none;
     padding: 16px 30px;
@@ -167,7 +167,7 @@ body{
     display: inline-block;
     width: 100px;
     height: 50%;
-    background:#0900ad;
+    background: var(--button-primary);
     color: #fff;
     margin-top: 20px;
     margin-left: 20px;
@@ -289,14 +289,20 @@ body{
 
 .contact_button{
     display: inline-block;
-    width: 170px;
+    width: 175px;
     margin: 0 auto;
     text-align: center;
-    background:#0900ad;
-    color: #fff;
+    background:var(--button-secondary);
+    color: #2965cd;
+    font-weight: bold;
     text-decoration: none;
     padding: 16px 30px;
     border-radius: 5px;
+}
+
+.contact_button--active{
+    background:var(--button-primary);
+    color: #fff;
 }
 
 .section__contacts__box__title{
