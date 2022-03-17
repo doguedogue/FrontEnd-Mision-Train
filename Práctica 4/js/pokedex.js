@@ -14,14 +14,30 @@ const fetchPokemon = () => {
     }).then((data) => {
         if (data) {
             console.log(data);
-            let pokeImg = data.sprites.front_default;
+            pokeNombre(data.species.name);
+            let pokeImg = data.sprites.other.home.front_default;
+
             pokeImage(pokeImg);
             console.log(pokeImg);
         }
     });
 }
 
+const pokeNombre = (nombre) => {
+    const pokePhoto = document.getElementById("nombre");
+    pokePhoto.value = nombre;
+}
+
 const pokeImage = (url) => {
     const pokePhoto = document.getElementById("pokeImg");
     pokePhoto.src = url;
 }
+
+var input = document.getElementById("pokeName");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("myBtn").click();
+  }
+});
