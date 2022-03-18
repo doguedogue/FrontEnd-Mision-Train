@@ -116,6 +116,13 @@ body{
     border: white;
     outline: none;
     border-radius: 10px;
+    color:rgb(52, 52, 52);
+    font-size:22px;
+    font-weight: 300px;
+}
+
+.input:hover{
+    outline: 3px tomato solid;
 }
 
 
@@ -135,10 +142,22 @@ body{
     margin-top: 50px;
     margin: 0;
     width: 53px;
-    padding: 18px 10px;
-    background-color: white;
-    background: none;
-    
+    padding: 18px 10px;    
+    background: none;    
+}
+
+.botones__ctr.der:hover{
+    background-color: tomato;
+    border-radius: 10px 0 0 10px;
+}
+
+.botones__ctr.izq:hover{
+    background-color: tomato;
+    border-radius: 0px 10px 10px 0;
+}
+
+.botones__ctr:active{
+    background-color: black;
 }
 
 .bc{
