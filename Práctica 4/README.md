@@ -2,7 +2,7 @@
 
 ### Práctica JS - Pokedex
 
-[Code (HTML)](https://github.com/doguedogue/FrontEnd-Mision-Training/tree/main/Pr%C3%A1ctica%204/index.html) [Page (https://doguedogue.github.io/pokedex/index.html)](https://doguedogue.github.io/pokedex/index.html)
+[Code (HTML)](https://github.com/doguedogue/pokedex) [Page (https://doguedogue.github.io/pokedex/index.html)](https://doguedogue.github.io/pokedex/index.html)
 
 Vista Escritorio
 
