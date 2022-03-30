@@ -1,6 +1,8 @@
 # FrontEnd-Mision-Training🚀
 
-### Práctica Vue
+### Práctica Vue | Vuex
+
+[Code (HTML)](https://github.com/doguedogue/xocolatl-vue) [Page (https://icy-hill-0629dae0f.1.azurestaticapps.net/#/)](https://icy-hill-0629dae0f.1.azurestaticapps.net/#/)
 
 Para esta práctica vamos a recordar la primera práctica que tuvimos en donde maquetamos una pastelería, pero ahora lo haremos con Vue.
 
