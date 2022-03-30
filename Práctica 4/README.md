@@ -2,7 +2,7 @@
 
 ### Práctica JS - Pokedex
 
-[Code (HTML)](https://github.com/doguedogue/pokedex) [Page (https://doguedogue.github.io/pokedex/index.html)](https://doguedogue.github.io/pokedex/index.html)
+[Code (HTML)](https://github.com/doguedogue/pokedex) [Page (https://doguedogue.github.io/pokedex/)](https://doguedogue.github.io/pokedex/)
 
 Vista Escritorio
 
